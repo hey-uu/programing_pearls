@@ -1,4 +1,3 @@
-
 #include <stdio.h> 
 
 long double	tax_calculator_in_book(int income)

@@ -19,11 +19,10 @@ long double	my_tax_calculator(int income)
 		tax += weight * diff;
 	return (tax);
 }
- 
 
 int main(void)
 {
-	int income;
+	int	income;
 
 	printf("Enter an income: ");
 	while (scanf("%d", &income) != EOF)
